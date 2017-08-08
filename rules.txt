@@ -1,0 +1,28 @@
+TOPO 命名规范：
+
+变量：驼峰法
+
+
+函数：首字母大写，
+
+
+
+类：首字母大写
+
+注释/*….*/
+
+缩进: 空格缩进*4，大括必须弧占一行；运算符两边加空格；换行运算符在开头；虚函数暂时不用指定virtual；
+
+尽量加入异常判断；（if 判断）
+
+
+问题：
+
+1. input.txt 中只有twiss的生成例子分布接口
+2. 粒子分布生成函数需要再次确认正确
+
+
+1,fixed bug in SetElement
+2,some wrong about file format may exist in field.cpp::SetParameter
+3,field had been multiplied by (charge) and divided by (gamma * mass) in the Particle::GetTotalField
+4,the code can be run now, and IT CAN GET A RESULT SEEM TO BE CORRECT!!! (without space charge)

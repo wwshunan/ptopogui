@@ -1,0 +1,40 @@
+!rfq begin
+!rfq     4.66345     0.002775    0   325e6   -90  ./ADS_RFQ
+
+!MEBT1-start
+drift	   0.095	0.025  0                !0
+quadm	   0.070	0.015  0  	30      
+drift	   0.095	0.025  0                !2.6
+quadm      0.070	0.015  0  	-22.9984
+drift      0.127	0.015  0  
+
+drift      0.088	0.017  0
+field      0.160        0.017  0        1       325e6   -90         0.526845  0.526845  field/buncher      !buncher1  1.526845  1.526845
+drift      0.088	0.017  0
+
+drift      0.122	0.025  0  
+quadm      0.080	0.025  0  	10.9031
+drift      0.080	0.025  0  
+quadm      0.080	0.025  0  	-9.90291
+drift      0.122	0.017  0  
+
+
+drift      0.088	0.017  0
+field      0.160        0.017  0       1        325e6   -90         1.01375    1.01375   field/buncher  !buncher1
+drift      0.088	0.017  0
+drift      0.122	0.025  0
+
+drift	   0.050	0.025  0  
+quadm	   0.080	0.025  0  	12.2207
+drift	   0.080	0.025  0  
+quadm	   0.080	0.025  0  	-11.8845
+drift	   0.090	0.025  0  
+drift	   0.050	0.025  0  
+drift	   0.020	0.025  0  
+
+drift	   0.400	0.025  0  
+drift	   0.072	0.025  0  
+
+!MEBT1-end
+!field 	 0.180	 	17.5 	-24.1483 	0.789661 0.789661   field/cav012  !6#
+!alpha：2.41  beta：7.72cm/rad  Emittance.Nor: 0.2 pi mm-mrad
